@@ -1,0 +1,178 @@
+.container-top{
+  background-color: #3D1766;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    }
+
+ .selfie img{
+  width: 300px;
+  border-radius: 50%;
+  }
+
+ .text-title > h1, h2{
+    font-family: 'Russo One', sans-serif;
+    color:#CD0404;
+    font-size: 54px;
+  }
+
+ .text-title > h2{
+    font-family: 'Indie Flower', cursive;
+    color: #FF0032;
+  }
+
+
+.resume{
+    width: 100%;
+    position: absolute;
+    top: 750px;
+    
+    background-color: #CD0404;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+
+  .first-resume{
+    display: flex;
+    flex-basis: 200px;
+    gap:20px;
+  }
+
+  .engineer{
+    padding-top: 20px;
+   }
+
+  .second-resume{
+    display: flex;
+    flex-basis: 200px;
+    gap: 20px;
+   } 
+
+  .biomedical{
+    padding-top: 20px;
+  }
+  
+  .third-resume{
+    display: flex;
+    flex-basis: 200px;
+    gap: 20px;
+    }
+
+  .gamer{
+    padding-top: 20px;
+  }
+
+  .gamer-text p{
+    padding-top: 19px;
+  }
+ 
+
+.resume h3,p{
+  color: #3D1766;
+  font-size: larger;
+  font-family: 'Comfortaa', cursive;
+}
+  
+ .contact{
+  position: absolute;
+  display: block;
+  top: 1200px;
+  width: 100%;
+  background-color: #6F1AB6;
+  padding-top: 20px;
+  padding-bottom: 46px;
+ }
+
+ .contact-text{
+  text-align: center;
+ }
+
+ .contact-text > h2{
+  color: #CD0404;
+  font-family: 'Comfortaa', cursive;
+ }
+
+ .contact-text p{
+  color:#CD0404 ;
+  font-size: 25px;
+ }
+
+ .button{
+  padding-top:25px;
+  
+  }
+
+  .button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 7px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+  }
+
+
+  .footer{
+    display: inline-block;
+    position: absolute;
+    background-color: #CD0404;
+    width: 100%;
+    top: 1600px;
+  }
+.footer p{
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  }
+
+  @media (max-width:600px) and (min-width:200px){
+    .container-top{
+      display: block;
+      text-align: center;
+      padding-top: 30px;
+    }
+ .resume{
+  display: block;
+  padding-top: 20px;
+  position: absolute;
+  }
+
+h3, p{
+  font-size: small;
+}
+
+.selfie > img{
+  height: 150px;
+  width: 150px;
+}
+
+.contact-text > p{
+  font-size: 20px;
+}
+
+.contact-text > h2{
+  font-size: 35px;
+}
+
+
+  }
+
